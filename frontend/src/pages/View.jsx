@@ -24,7 +24,7 @@ const View = () => {
                   <strong>Name:</strong> {fb.name}
                 </p>
                 <p className="text-sm text-gray-500 mb-1">
-                  <strong>Intern:</strong> {fb.intern}
+                  <strong>Intern:</strong> {fb.selectedIntern}
                 </p>
                 <p className="text-base text-gray-700 mb-1">
                   <strong>Feedback:</strong> {fb.feedback}
